@@ -11,19 +11,19 @@
     "level": "DEBUG",
     "node": "node02",
     "service": "api-service",
-    "message": "Received request from client"
+    "message": "Request received from user"
   },
   {
     "timestamp": "2025-07-10T15:02:00Z",
     "level": "WARN",
-    "node": "node03",
-    "service": "auth-service",
-    "message": "High memory usage detected"
+    "node": "node01",
+    "service": "cache-service",
+    "message": "Memory threshold exceeded"
   },
   {
     "timestamp": "2025-07-10T15:03:00Z",
     "level": "ERROR",
-    "node": "node01",
+    "node": "node03",
     "service": "db-service",
     "message": "Database connection failed"
   }
